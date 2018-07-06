@@ -28,5 +28,6 @@ function prependKitten(name){
 */
 
 function prependKitten(name){
-  var newList = [name, ...kittens]
+  var newList = [name, ...kittens];
+  return newList
 }
