@@ -20,14 +20,12 @@ function appendKitten(name){
   return newList
 }
 
-/*
-function prependKitten(name){
-  var newList = kittens.splice(0, 0, name);
-  return newList
-}
-*/
-
 function prependKitten(name){
   var newList = [name, ...kittens];
+  return newList
+}
+
+function removeLastKitten(name){
+  var newList = kittens.pop();
   return newList
 }
