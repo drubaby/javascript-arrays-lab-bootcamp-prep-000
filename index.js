@@ -19,3 +19,7 @@ function appendKitten(name){
   var newList = kittens.push(name);
   return newList
 }
+
+function appendKitten(kittens, name){
+  
+}
