@@ -21,5 +21,6 @@ function appendKitten(name){
 }
 
 function appendKitten(kittens, name){
-  var newList = 
+  var newList = [...kittens, name]
+  return newList
 }
