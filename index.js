@@ -21,5 +21,5 @@ function appendKitten(name){
 }
 
 function appendKitten(kittens, name){
-  
+  var newList = 
 }
